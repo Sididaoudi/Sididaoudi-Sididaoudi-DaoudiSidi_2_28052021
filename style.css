@@ -314,6 +314,7 @@ h2 h3 {
 .aside h2 {
   padding-left: 10px;
   flex: 1;
+  border: 1px solid black;
 }
 
 .aside h2,
