@@ -12,14 +12,14 @@
 /* ***************** CONTENU ***************************** */
 .contenu {
   padding: 0 20px;
-  max-width: 1200px;
+  max-width: 1350px;
   width: 100%;
   margin: auto;
   margin-top: 20px;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 h3 {
@@ -234,6 +234,7 @@ h2 h3 {
 
 .more {
   padding: 14px;
+  padding-top: 35px;
   font-weight: bold;
 }
 
@@ -248,7 +249,7 @@ h2 h3 {
   padding-left: 10px;
   padding-top: 4px;
   font-size: 13px;
-  margin-top: 5px;
+  margin-top: 1px;
   margin-bottom: 7px;
 }
 
@@ -266,7 +267,7 @@ h2 h3 {
   border-radius: 20px 20px;
   overflow: hidden;
   min-width: 200px;
-  box-shadow: 2px 3px 6px rgb(0 0 0 / 5%);
+  box-shadow: 8px 8px 16px rgb(0 0 0 / 13%);
 }
 
 .cards img {
@@ -333,7 +334,7 @@ h2 h3 {
 
 .cards-aside2 {
   background: white;
-  width: 100%;
+  /* width: 100%; */
   border: 3px solid white;
   border-radius: 20px 20px;
   overflow: hidden;
@@ -349,8 +350,11 @@ h2 h3 {
 .cards-aside2 a {
   display: flex;
   text-decoration: none;
-
   color: black;
+}
+
+.cards-aside2 p {
+  margin-top: 5px;
 }
 .cards-aside2 img {
   width: 40%;
@@ -370,9 +374,18 @@ h2 h3 {
 }
 
 .cards-aside2 h3 {
-  font-size: 15px;
+  font-size: 19px;
   font-weight: bold;
-  margin-top: 5px;
+  padding-top: 11px;
+}
+
+/* .cards-aside2,
+.stars {
+  margin-top: -30px;
+} */
+
+.cards-aside2 .stars {
+  margin-top: -25px;
 }
 
 h1 {
@@ -404,7 +417,7 @@ h1 {
   display: flex;
   flex-direction: column;
   width: 100%;
-  box-shadow: 3px 4px 10px rgb(0 0 0 / 5%);
+  box-shadow: -2px 4px 10px rgb(0 0 0 / 14%);
   border-radius: 15px;
   overflow: hidden;
   text-decoration: none;
@@ -511,6 +524,10 @@ footer h3 {
 footer ul {
   list-style: none;
   padding: 10px;
+  height: 87px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 footer a {
@@ -609,7 +626,7 @@ footer a {
   }
 
   .hebergements h2 {
-    font-size: 1rem;
+    font-size: 15px;
   }
 
   .aside {
