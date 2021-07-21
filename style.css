@@ -609,6 +609,7 @@ footer a {
     display: flex;
     flex-wrap: wrap;
     margin-left: 0;
+    width: 112%;
   }
 
   .filtres li {
