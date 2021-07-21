@@ -106,7 +106,7 @@ form i {
 }
 
 form button {
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 15px 16px 2px;
   background-color: #0065fc;
   color: white;
   width: 10%;
@@ -252,6 +252,7 @@ h2 h3 {
 
 .les-hebergements .stars {
   padding-left: 10px;
+  padding-bottom: 5px;
 }
 
 /* ***************** Bloc blanc ***************************** */
@@ -314,7 +315,6 @@ h2 h3 {
 .aside h2 {
   padding-left: 10px;
   flex: 1;
-  border: 1px solid black;
 }
 
 .aside h2,
