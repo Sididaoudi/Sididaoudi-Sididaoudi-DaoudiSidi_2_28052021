@@ -430,8 +430,7 @@ h1 {
   width: 100%;
   object-fit: cover;
   /* height: calc(100% - 40px); */
-  object-position: 51% 40%;
-  border: 1px solid black;
+  /* object-position: 51% 40%; */
 }
 .grid-item-1 img,
 .grid-item-4 img {
