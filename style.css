@@ -429,8 +429,9 @@ h1 {
 .grid img {
   width: 100%;
   object-fit: cover;
-  height: calc(100% - 40px);
-  object-position: 51% 57%;
+  /* height: calc(100% - 40px); */
+  object-position: 51% 40%;
+  border: 1px solid black;
 }
 .grid-item-1 img,
 .grid-item-4 img {
@@ -646,7 +647,6 @@ footer a {
   }
   .grid img {
     width: 100%;
-    object-fit: cover;
   }
 
   footer {
