@@ -113,8 +113,6 @@ form button {
 }
 
 .btn {
-  border: 1px solid black;
-  background-color: red;
   display: none;
 }
 
@@ -184,6 +182,10 @@ input {
   text-decoration: none;
   border-radius: 10px 10px 10px 10px;
   background-color: white;
+}
+
+.filtres a:hover {
+  background-color: greenyellow;
 }
 .logement {
   display: flex;
@@ -414,7 +416,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(8, 20px);
-  grid-gap: 50px;
+  grid-gap: 32px;
 }
 .grid a {
   display: flex;
@@ -438,7 +440,7 @@ h1 {
 }
 .grid-item-1 img,
 .grid-item-4 img {
-  height: 423px;
+  height: 335px;
 }
 .grid-item-2 img {
   height: 180px;
@@ -450,7 +452,7 @@ h1 {
   height: 140px;
 }
 .grid-item-6 img {
-  height: 140px;
+  height: 125px;
 }
 
 .grid-item-1 {
@@ -505,6 +507,7 @@ footer {
   background: #f2f2f2;
   padding: 10px;
   width: 100%;
+  margin-top: 50px;
 }
 
 footer h3 {
@@ -606,7 +609,6 @@ footer a {
   }
 
   form button {
-    border: 1px solid rebeccapurple;
     width: 100px;
     display: none;
   }
